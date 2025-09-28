@@ -3,9 +3,9 @@ print('\t\t **    Python-Tutorial0001    **')
 print('\t\t **===========================**')
 print('\t\t ** Developer : BOUAZIZI ATEF **')
 print('\t\t ** BOUAZIZI-ATEF@OUTLOOK.COM **')
-print('\t\t *******************************\n')
+print('\t\t *******************************')
 #------------------------------------------------
-input('Press enter to continue...')
+input('\n Press enter to continue...')
 #------------------------------------------------
 x=float(input('Enter value 1 : '))
 y=float(input('Enter value 2 : '))
@@ -24,7 +24,8 @@ print('Value 1 * Value 2 = ', x*y)
 print('Value 1 / Value 2 = ', x/y)
 print('Value 1 // Value 2 = ', x//y)
 #------------------------------------------------
-print('\n')
+input('\n Press enter to continue...')
+#------------------------------------------------
 n=str(input('Enter your name : '))
 a=int(input('Enter your age : '))
 
@@ -33,6 +34,8 @@ print('Value 1 = ',x, ', Type : ', type(x))
 print('Value 2 = ',y, ', Type : ', type(y))
 print('Your name = ',n, ', Type : ', type(n))
 print('Your age = ',a, ', Type : ', type(a))
+#------------------------------------------------
+input('\n Press enter to continue...')
 #------------------------------------------------
 print('\n')
 for i in range(10):
@@ -57,10 +60,11 @@ for i in range(10):
 	for j in range(10):
 		print(j,' x ',i,' = ', j * i)
 #------------------------------------------------
+input('\n Press enter to continue...')
+#------------------------------------------------
 r=[10,20,30,40]
 f=["BOUAZIZI","BEJAOUI","TEFFEHI"]
 
-print('\n')
 print('Value liste 1 = ',r, ', Type : ', type(r))
 print('Value liste 2 = ',f, ', Type : ', type(f))
 
@@ -93,4 +97,5 @@ while i<len(f):
 	i=i+1
 #------------------------------------------------
 print('\n')
+
 input('Press enter to exit!..')
